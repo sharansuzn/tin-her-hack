@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://wallpaperbat.com/img/406588-food-4k-hd-desktop-background-wallpaper-fotografi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(27, 23, 16);
+
+}
+
+.wrapper {
+    margin: auto;
+    width: 10px;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    color: #161515;
+    }
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #1d1818;
+    border: none;
+    cursor: pointer;
+}
