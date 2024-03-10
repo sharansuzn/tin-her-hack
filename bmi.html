@@ -90,7 +90,7 @@ function NavigateToPage(){
   var gender = document.getElementById("gender").value;
   
   var bmi = weight / Math.pow(height, 2);
-    window.location.href=`/3rdpage.html?bmi=${bmi.toFixed(2)}`;
+    window.location.href=`./3rdpage.html?bmi=${bmi.toFixed(2)}`;
   }
 document.getElementById("bmiForm").addEventListener("submit", function(event) {
   event.preventDefault();
