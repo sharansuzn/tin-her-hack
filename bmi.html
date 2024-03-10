@@ -6,6 +6,7 @@
 <title>BMI Calculator</title>
 <style>
   body {
+    
     font-family: Arial, sans-serif;
   }
   form {
@@ -37,6 +38,7 @@
   }
   #result {
     margin-top: 20px;
+    text-align: center;
   }
   #dietPlanButton {
     display: block;
@@ -78,7 +80,10 @@
 
 <button id="dietPlanButton">Your Diet Plan</button>
 
-<script>
+
+<div style="text-align: center">
+    <script>
+
 document.getElementById("bmiForm").addEventListener("submit", function(event) {
   event.preventDefault();
 
@@ -89,11 +94,13 @@ document.getElementById("bmiForm").addEventListener("submit", function(event) {
   
   var bmi = weight / Math.pow(height, 2);
   
+  
   var resultText = "Your BMI is " + bmi.toFixed(2);
   
   document.getElementById("result").innerText = resultText;
 });
 </script>
+</div>
 
 </body>
 </html>
